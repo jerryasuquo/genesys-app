@@ -1,0 +1,1366 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Nunito, 'sans-serif';
+    color: #273043;
+}
+
+/* NAV */
+
+.nav-bg{
+    font-family: 'Nunito',
+        sans-serif;
+    background-color: #17255A;
+}
+
+.nav-bg .secondary li>* {
+    color: #EEEEEE;
+}
+
+.top-nav {
+    background-color: #FFFFFF;
+}
+
+.genesys-logo {
+    padding: 50px;
+}
+
+.primary li {
+    list-style: none;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+
+    float: left;
+    position: relative;
+    bottom: 86px;
+    left: 292.5px;
+    padding-right: 30px;
+}
+
+nav .primary li>* {
+    color: #273043;
+    text-decoration: none;
+}
+
+.devstudio {
+    float: right;
+    position: relative;
+    bottom: 96px;
+    right: 50px;
+}
+
+.devstudio span {
+    font-size: 13px;
+    padding-right: 36px;
+}
+
+.devstudio button {
+    border: 1px solid #17255A;
+    border-radius: 4px;
+    padding: 10px 12px;
+    background-color: #FFFFFF;
+    color: #17255A;
+    font-family: 'Roboto',
+        sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.secondary ul {
+    margin-left: 22%;
+    color: #EEEEEE;
+    position: relative;
+    bottom: 8px;
+    padding-bottom: 3px;
+}
+
+.secondary li {
+    float: left;
+    list-style: none;
+    text-decoration: underline;
+    padding-right: 30px;
+    text-transform: uppercase;
+}
+
+/* footer .subscribe,
+footer input[placeholder="Your email"],
+footer .subscribe button {
+    background-color: #03CEA4;
+} */
+
+/* LANDING PAGE */
+
+.landing-page {
+    font-family: 'Roboto',
+    'sans-serif';
+}
+
+/* .jumbo {
+    
+} */
+
+.jumbo div {
+    margin-left: 61px;
+}
+
+.jumbo h2 {
+    font-size: 40px;
+    font-weight: 900;
+    width: 654px;
+    text-transform: capitalize;
+    color: #17255A;
+}
+
+.jumbo p {
+    font-size: 16px;
+    padding-top: 50px;
+    width: 455px;
+}
+
+.jumbo .arrow-down {
+    margin: 229px 39px;
+    font-size: 41px;
+    float: left;
+}
+
+.jumbo .celebrate {
+    margin: 100px 0;
+}
+
+.celebrate img {
+    width: 91.4vw;
+}
+
+.learn-more-box {
+    padding: 100px 100px 0 50px;
+}
+
+.learn-more .photo {
+    float: left;
+    padding-bottom: 100px;
+}
+
+.learn-more .copy {
+    position: relative;
+    left: 100px;
+    top: 199px;
+}
+
+.learn-more .copy h2 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.learn-more .copy p,
+.learn-more .copy h5 {
+    font-size: 15px;
+    padding-top: 40px;
+}
+
+.learn-more .copy p {
+    width: 95%;
+}
+
+.learn-more .copy h5 {
+    text-decoration: underline;
+    font-weight: 600;
+    color: #03CEA4;
+}
+
+.agora {
+    clear: left;
+    background-color: #EEEEEE;
+    padding-bottom: 500px;
+}
+
+.agora-box {
+    padding: 100px 100px 0 50px;
+}
+
+.agora .photo {
+    float: right;
+    margin-right: -81px;
+    position: relative;
+    bottom: 180px;
+}
+
+.agora .copy {
+    position: relative;
+    top: 189px;
+}
+
+.agora .copy h2 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.agora .copy p,
+.agora .copy h5 {
+    font-size: 15px;
+    padding-top: 40px;
+}
+
+.agora .copy p {
+    width: 41%;
+}
+
+.agora .copy h5 {
+    text-decoration: underline;
+    font-weight: 600;
+    color: #03CEA4;
+}
+
+.start-zone {
+    clear: both;
+}
+
+.start-zone-box {
+    padding: 15px 100px 0 50px;
+}
+
+.start-zone .photo {
+    float: left;
+    padding-bottom: 100px;
+}
+
+.start-zone .copy {
+    position: relative;
+    left: 100px;
+    top: 199px;
+}
+
+.start-zone .copy h2 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.start-zone .copy p,
+.start-zone .copy h5 {
+    font-size: 15px;
+    padding-top: 40px;
+}
+
+.start-zone .copy p {
+    width: 95%;
+}
+
+.start-zone .copy h5 {
+    text-decoration: underline;
+    font-weight: 600;
+    color: #03CEA4;
+}
+
+.our-things {
+    clear: left;
+    background-color: #EEEEEE;
+    color: #17255A
+;
+}
+
+.our-things-box {
+    clear: left;
+    padding: 100px 150px 275px 100px;
+}
+
+.our-things .col-1 {
+    float: left;
+    width: 53.58%;
+}
+
+.our-things .row-1 {
+    float: left;
+    margin-bottom: 21px;
+}
+
+.our-things .row-2 {
+    clear: left;
+}
+
+.our-things .row-1 .col-1-1 {
+    float: left;
+}
+
+.our-things .row-1 .col-1-2 {
+    float: left;
+    font-size: 34px;
+    font-weight: 900;
+    margin-top: 83px;
+    text-decoration: underline;
+    width: 45%;
+}
+
+.our-things .row-1 .col-1-1,
+.our-things .row-2 .col-1-1 {
+    padding-right: 25px;
+}
+
+.our-things .row-2 .col-1-1 {
+    float: left;
+}
+
+.our-things .row-2 .col-1-2 {
+    float: left;
+}
+
+.our-things .row-2 h5 {
+    font-size: 24;
+    font-weight: 900;
+    margin-top: 18px;
+    width: 45%;
+    text-decoration: underline;
+}
+
+.our-things .col-2 {
+    position: relative;
+    left: 100px;
+    font-size: 44px;
+    font-weight: 900;
+    margin-top: 224px;
+}
+
+/* .agora, .our-things {
+    background-color: #EEEEEE;
+} */
+
+.landing-page .best-team {
+    clear: left;
+    background-color: #17255A;
+    padding-bottom: 389px;
+}
+
+.landing-page .best-team-box {
+    padding: 100px 100px 100px 50px;
+}
+
+.landing-page .best-team-box .photo {
+    color: #EEEEEE;
+    float: left;
+}
+
+.landing-page .best-team-box .copy {
+    color: #EEEEEE;
+    position: relative;
+    left: 100px;
+    top: 196px;
+}
+
+.landing-page .best-team-box .copy h2 {
+   font-size: 40px;
+   font-weight: 900;
+}   
+
+.landing-page .best-team-box .copy p {
+    font-size: 17px;
+    font-family: 'Nunito', 'sans-serif';
+    padding: 40px 0;
+    width: 95%;
+}
+
+.landing-page .best-team-box .copy h5 {
+    font-size: 15px;
+    font-family: 'Nunito', 'sans-serif';
+    text-decoration: underline;
+    color: #03CEA4;
+}
+
+/* .our-things .col-2 {
+    float: right;
+} */
+
+
+/* THE LEARNABLE SOFTWARE DEVELOPER PAGE */
+
+.sw-devs .col-1 {
+    float: left;
+    width: 523px;
+    margin: 70px 0 126px 100px;
+}
+
+.sw-devs .col-1 h1 {
+    float: left;
+    width: 523px;
+    padding-bottom: 78px;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 96px;
+    font-weight: 900;
+    color: #17255A;
+}
+
+.sw-devs .col-1 p {
+    font-family: 'Nunito', 'sans-serif';
+    font-size: 17px;
+    width: 95%;
+}
+
+.sw-devs .col-2 {
+    float: left;
+    position: relative;
+    top: 96px;
+    left: 120px;
+}
+
+.sw-devs .quote {
+    clear: both;
+    width: 735px;
+    margin-left: 100px;
+}
+
+.sw-devs .quote p {
+    font-size: 60px;
+    font-weight: 900;
+    font-family: 'Roboto', "sans-serif";
+    color: #03CEA4;
+}
+
+.sw-devs .article {
+    margin: 126px 0 0 209px;
+}
+
+.sw-devs .article .expected-text {
+    margin: 85px 0 86px 250px;
+    width: 523px;
+}
+
+.sw-devs .article .expected-text h2 {
+    font-size: 40px;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 900;
+    padding-bottom: 26px;
+}
+
+.sw-devs .article .expected-text p {
+    font-size: 17px;
+    font-family: 'Nunito', 'sans-serif';
+    width: 94%;
+}
+
+
+/* THE LEARNABLE PRODUCT DESIGNER PAGE */
+
+.designers .col-1 {
+    float: left;
+    width: 523px;
+    margin: 70px 0 126px 100px;
+}
+
+.designers .col-1 h1 {
+    float: left;
+    width: 523px;
+    padding-bottom: 78px;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 96px;
+    font-weight: 900;
+    color: #17255A;
+}
+
+.designers .col-1 p {
+    font-family: 'Nunito', 'sans-serif';
+    font-size: 17px;
+    width: 95%;
+}
+
+.designers .col-2 {
+    float: left;
+    position: relative;
+    top: 96px;
+    left: 120px;
+}
+
+.designers .quote {
+    clear: both;
+    width: 735px;
+    margin-left: 100px;
+}
+
+.designers .quote p {
+    font-size: 60px;
+    font-weight: 900;
+    font-family: 'Roboto', "sans-serif";
+    color: #F5772F;
+}
+
+.designers .article {
+    margin: 126px 0 0 209px;
+}
+
+.designers .article .expected-text {
+    margin: 85px 0 86px 250px;
+    width: 524px;
+}
+
+.designers .article .expected-text h2 {
+    font-size: 40px;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 900;
+    padding-bottom: 26px;
+}
+
+.designers .article .expected-text p {
+    font-size: 17px;
+    font-family: 'Nunito', 'sans-serif';
+    width: 94%;
+}
+
+
+/* THE LEARNABLE PRODUCT DESIGNER PAGE */
+
+.apply-knowledge .col-1 {
+    float: left;
+    width: 523px;
+    margin: 70px 0 126px 100px;
+}
+
+.apply-knowledge .col-1 h1 {
+    float: left;
+    width: 523px;
+    padding-bottom: 78px;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 96px;
+    font-weight: 900;
+    color: #17255A;
+}
+
+.apply-knowledge .col-1 p {
+    font-family: 'Nunito', 'sans-serif';
+    font-size: 17px;
+    width: 95%;
+}
+
+.apply-knowledge .col-2 {
+    float: left;
+    position: relative;
+    left: 120px;
+}
+
+.apply-knowledge .article {
+    margin: 126px 0 0 209px;
+}
+
+.apply-knowledge .article .how-to-text,
+.apply-knowledge .article .apply-text,
+.apply-knowledge .article .interview-text,
+.apply-knowledge .article .assessment-text,
+.apply-knowledge .article .get-in-text {
+    margin: 85px 0 86px 250px;
+    width: 524px;
+}
+
+.apply-knowledge .article .how-to-text h2,
+.apply-knowledge .article .apply-text h2,
+.apply-knowledge .article .interview-text h2,
+.apply-knowledge .article .assessment-text h2,
+.apply-knowledge .article .get-in-text h2 {
+    font-size: 40px;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 900;
+    padding-bottom: 26px;
+}
+
+.apply-knowledge .article .how-to-text p,
+.apply-knowledge .article .apply-text p,
+.apply-knowledge .article .interview-text p,
+.apply-knowledge .article .assessment-text p,
+.apply-knowledge .article .get-in-text p {
+    font-size: 17px;
+    font-family: 'Nunito', 'sans-serif';
+    width: 94%;
+}
+
+.apply-knowledge .article .apply-text h5 {
+    font-size: 15px;
+    font-family: 'Nunito', 'sans-serif';
+    width: 94%;
+    font-weight: 600;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #03CEA4;
+    padding-top: 40px;
+}
+
+
+/* FAQ */
+
+.faq {
+    padding: 73px 50px 0 100px;
+}
+
+/* .faq .col {
+    padding: 73px 50px 332.61px 100px;
+} */
+
+.faq .col-1 h1 {
+    font-size: 96px;
+    font-weight: 900;
+    font-family: 'Roboto', 'sans-serif';
+    color: #17255A;
+    float: left;
+    padding-left: 100px;
+}
+
+.faq .col-2 {
+    margin-left: 649px;
+}
+
+.faq-article {
+    width: 500px;
+    margin: -425.74px 0 332.61px 30%;
+}
+
+.faq-article select {
+    width: 500px;
+    font-size: 24px;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 900;
+    text-decoration: underline;
+    border: none;
+    color: #273043;
+}
+
+hr {
+    margin: 25.23px 0 40.82px 0;
+}
+
+
+/* LEARNABLE PAGE */
+
+.notification .content {
+    background-color: #EAC435;
+    height: 242px;
+    color: #17255A;
+}
+
+.notification .content .left-content {
+    width: 509px;
+    margin: 67px 50px;
+    float: left;
+}
+
+.notification .content .left-content h2 {
+    font-size: 34px;
+    font-weight: 900;
+    font-family: 'Roboto', 'sans-serif';
+    padding-bottom: 37px;
+}
+
+.notification .content .left-content p {
+    font-size: 15px;
+    font-family: 'Nunito', 'sans-serif';
+}
+
+.notification .content .right-content {
+    position: relative;
+    top: 77px;
+    right: -10px;
+    bottom: 77px;
+    left: 185px;
+    font-size: 15px;
+    font-family: 'Nunito',
+    'sans-serif';
+    float: left;
+}
+
+.notification .content .right-content h2 {
+    font-size: 34px;
+    font-weight: 900;
+    font-family: 'Roboto', 'sans-serif';
+    padding-top: 23px;
+    text-decoration: underline;
+}
+
+.hero-box .hero {
+    padding: 50px 726px 287px 100px;
+}
+
+.hero-box .hero .hero-text h1 {
+    font-size: 96px;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 900;
+    padding-bottom: 91px;
+}
+
+.hero-box .hero .hero-text p {
+    font-size: 16px;
+    font-family: 'Roboto', 'sans-serif';
+    width: 321px;
+}
+
+.media-section {
+    background-color: #EEEEEE;
+}
+
+.media-section .statistics {
+    background-color: #EEEEEE;
+    margin: 325px 0 0 227px;
+}
+
+/* .media-section .hero-media {
+    width: 1376px;
+} */
+
+/* .media-section .arrow-down {
+    margin: 229px 39px;
+    font-size: 41px;
+    float: left;
+} */
+
+/* .media-section .video {
+    margin: 100px 0;
+} */
+
+/* .media-section .hero-media .explore-options {
+    margin-left: 824px;
+    
+} */
+
+.great-people {
+    margin: 100px 0 0 100px;
+}
+
+.great-people .copy {
+    float: left;
+    width: 538px;
+}
+
+.great-people .copy h2 {
+    font-size: 40px;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 900;
+    padding-bottom: 40px;
+}
+
+.great-people .copy p {
+    font-size: 17px;
+    font-family: 'Nunito',
+    'sans-serif';
+    width: 94%;
+}
+
+.great-people .photo {
+    float: left;
+}
+
+.great-people .photo img {
+    position: relative;
+    left: 220px;
+}
+
+.learning-experience {
+    margin-top: 652px;
+    background-color: #EEEEEE;
+    height: 780px;
+}
+
+.learning-experience .photo {
+    float: left;
+    margin: 100px 0 0 50px;
+}
+
+.learning-experience .copy {
+    position: relative;
+    top: 336px;
+    float: left;
+    left: 50px;
+}
+
+.learning-experience h2 {
+    font-size: 40px;
+    font-family: 'Roboto',
+    'sans-serif';
+    font-weight: 900;
+    padding-bottom: 40px;
+}
+
+.learning-experience .copy p {
+    width: 600px;
+    font-size: 17px;
+    font-family: 'Nunito',
+    'sans-serif';
+}
+
+.build-software {
+    clear: both;
+}
+
+.eligible {
+    margin: 100px 0 0 100px;
+}
+
+.eligible .copy {
+    float: left;
+    width: 538px;
+    margin-top: 120px;
+}
+
+.eligible .copy h2 {
+    font-size: 40px;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 900;
+    padding-bottom: 40px;
+}
+
+.eligible .copy p {
+    font-size: 17px;
+    font-family: 'Nunito',
+        'sans-serif';
+    width: 97%;
+}
+
+.eligible .photo {
+    float: left;
+}
+
+.eligible .photo img {
+    position: relative;
+    left: 20px;
+}
+
+.culture {
+    margin-top: 780px;
+    background-color: #F5772F;
+    height: 780px;
+    color: #EEEEEE;
+}
+
+.culture .photo {
+    float: left;
+    margin: 100px 0 0 50px;
+}
+
+.culture .copy {
+    position: relative;
+    top: 336px;
+    float: left;
+    left: 100px;
+}
+
+.culture h2 {
+    font-size: 40px;
+    font-family: 'Roboto',
+        'sans-serif';
+    font-weight: 900;
+    padding-bottom: 40px;
+}
+
+.culture .copy p {
+    width: 510px;
+    font-size: 17px;
+    font-family: 'Nunito',
+        'sans-serif';
+}
+
+.learning {
+    margin: 100px 0 0 100px;
+}
+
+.learning .copy {
+    float: left;
+    width: 538px;
+    margin-top: 120px;
+}
+
+.learning .copy h2 {
+    font-size: 40px;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 900;
+    padding-bottom: 40px;
+}
+
+.learning .copy p {
+    font-size: 17px;
+    font-family: 'Nunito',
+        'sans-serif';
+    width: 97%;
+}
+
+.learning .photo {
+    float: left;
+}
+
+.learning .photo img {
+    position: relative;
+    left: 20px;
+}
+
+.learning-is-fun {
+    margin-top: 780px;
+    background-color: #EEEEEE;
+    height: 780px;
+}
+
+.learning-is-fun .photo {
+    float: left;
+    margin: 100px 0 0 50px;
+}
+
+.learning-is-fun .copy {
+    position: relative;
+    top: 336px;
+    float: left;
+    left: 100px;
+}
+
+.learning-is-fun h2 {
+    font-size: 40px;
+    font-family: 'Roboto',
+        'sans-serif';
+    font-weight: 900;
+    padding-bottom: 40px;
+}
+
+.learning-is-fun .copy p {
+    width: 485px;
+    font-size: 17px;
+    font-family: 'Nunito',
+        'sans-serif';
+}
+
+.learning-activities {
+    margin: 100px 0 0 100px;
+}
+
+.learning-activities .copy {
+    float: left;
+    width: 538px;
+    margin-top: 120px;
+}
+
+.learning-activities .copy h2 {
+    font-size: 40px;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 900;
+    padding-bottom: 40px;
+}
+
+.learning-activities .copy p {
+    font-size: 17px;
+    font-family: 'Nunito',
+        'sans-serif';
+    width: 520px;
+}
+
+.learning-activities .photo {
+    float: left;
+}
+
+.learning-activities .photo img {
+    position: relative;
+    left: 20px;
+}
+
+.team {
+    margin-top: 780px;
+    background-color: #17255A;
+    color: #EEEEEE;
+    height: 780px;
+}
+
+.team .photo {
+    float: left;
+    margin: 100px 0 0 50px;
+}
+
+.team .copy {
+    position: relative;
+    top: 210px;
+    float: left;
+    left: 100px;
+}
+
+.team .copy h2 {
+    font-size: 40px;
+    font-family: 'Roboto',
+    'sans-serif';
+    font-weight: 900;
+    padding-bottom: 40px;
+}
+
+.team .copy p {
+    width: 520px;
+    font-size: 17px;
+    font-family: 'Nunito',
+        'sans-serif';
+}
+
+.team .copy h5 {
+    font-size: 15px;
+    font-family: 'Nunito',
+        'sans-serif';
+    font-weight: 600;
+    color: #03CEA4;
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding-top: 42.07px;
+}
+
+.faq-learn {
+    padding: 89px 470px 0 0;
+    height: 1047.84px;
+}
+
+.faq-learn h2 {
+    font-size: 60px;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 900;
+    padding-left: 314px;
+}
+
+.faq-learn .faq-article {
+    width: 500px;
+    margin: 180px 0 332.61px 50%;
+}
+
+.faq-learn .faq-article select {
+    width: 500px;
+    font-size: 24px;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 900;
+    text-decoration: underline;
+    border: none;
+    color: #273043;
+}
+
+.faq-learn hr {
+    margin: 25.23px 0 40.82px 0;
+}
+
+.faq-learn h5 {
+    font-size: 15px;
+    font-family: 'Nunito', 'sans-serif';
+    font-weight: 600;
+    color: #03CEA4;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.journal {
+    background-color: #EEEEEE;
+    padding: 91px 50px 93px 50px;
+    height: 1113px;
+}
+
+.journal-row {
+    background-color: #EEEEEE;
+    padding: 0 50px 0 50px;
+    height: 774.04px;
+}
+
+.journal h2,
+.journal-row h2 {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.journal h5,
+.journal-row h5 {
+    padding-top: 60px;
+    padding-left: 50px;
+    font-size: 15px;
+    font-family: 'Nunito',
+    'sans-serif';
+    font-weight: 600;
+    color: #03CEA4;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.journal .col,
+.journal-row .col {
+    margin: 86px 0 0 50px;
+}
+
+.journal-row .col {
+    padding-left: 50px;
+    float: left;
+    margin-top: -84px;
+}
+
+.journal .col .col-1,
+.journal .col .col-2,
+.journal-row .col .col-1,
+.journal-row .col .col-2 {
+    float: left;
+    position: relative;
+}
+
+.journal .col .col-1,
+.journal-row .col .col-1 {
+    right: 50px;
+}
+
+.journal .col .col-2,
+.journal-row .col .col-2 {
+    right: 32px;
+}
+
+.journal .col .col-3,
+.journal-row .col .col-3 {
+    float: left;
+    margin-left: -12px;
+}
+
+.journal .col .col-4,
+.journal-row .col .col-4 {
+    margin-left: 900px;
+    margin-top: -647px;
+    float: left;
+}
+
+.journal .col img,
+.journal-row .col img {
+    width: 298px;
+}
+
+.journal .col-1 h2,
+.journal .col-2 h2,
+.journal .col-3 h2,
+.journal .col-4 h2,
+.journal-row .col-1 h2,
+.journal-row .col-2 h2,
+.journal-row .col-3 h2,
+.journal-row .col-4 h2 {
+    width: 281px;
+    font-size: 34px;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+.journal .col-text,
+.journal-row .col-text {
+    margin-top: -10px;
+}
+
+.journal .col-text h5,
+.journal-row .col-text h5 {
+    margin-left: -50px;
+}
+
+.journal .col-text h2,
+.journal-row {
+    padding: 32px 0 20px 0;
+}
+
+.journal .col-text h2,
+.journal-row .col-text h2 {
+    padding: 32px 0 20px 0;
+}
+
+.journal-row button {
+    margin: 67.96px 0 0 622px;
+    width: 112px;
+    height: 36px;
+    color: #17255A;
+    font-size: 14px;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 500;
+    border: 1px solid #17255A;
+    border-radius: 4px;
+}
+
+.hero-journal {
+    height: 438px;
+    padding: 142px 0 0 189px;
+    color: #17255A;
+    background-color: #EEEEEE;
+}
+
+.hero-journal h1 {
+    height: 438px;
+    font-size: 96px;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 900;
+}
+
+.hero-journal button {
+    font-family: 'Roboto', 'sans-serif';
+    width: 118px;
+    height: 36px;
+    float: right;
+    margin-top: -398px;
+    margin-right: 244px;
+    color: #17255A;
+    font-size: 14px;
+    font-family: 'Roboto',
+    'sans-serif';
+    font-weight: 500;
+    border: 1px solid #17255A;
+    border-radius: 4px;
+}
+
+/* FOOTER */
+
+.arrow-up {
+    margin: 129px 39px;
+    font-size: 41px;
+    float: left;
+}
+
+.subscribe {
+    background-color: #EAC435;
+    float: left;
+    width: 90%;
+}
+
+.landing-page-sub .subscribe,
+.landing-page-sub .subscribe button,
+.landing-page-sub .subscribe .form input[placeholder="Your email"] {
+    background-color: #03CEA4;
+}
+
+.subscribe p {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 34px;
+    font-weight: 900;
+    width: 480px;
+    padding: 97px 0 104px 49px;
+}
+
+.form {
+    float: right;
+    position: relative;
+    bottom: 196px;
+    right: 346px;
+    color: #17255A;
+    width: 214px;
+}
+
+.form form {
+    padding-bottom: 10px;
+    color: #17255A;
+}
+
+.form input {
+    border: none;
+    background-color: #EAC435;
+}
+
+.form input[placeholder="Your email"] {
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #17255A;
+}
+
+.horizontal {
+    border-bottom: 1px solid #17255A;
+}
+
+.form h6 {
+    font-size: 13px;
+    padding-top: 13px;
+}
+
+.subscribe button {
+    float: right;
+    position: relative;
+    bottom: 183px;
+    right: -78px;
+
+    border: 1px solid #17255A;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 10px 12px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #17255A;
+    background-color: #EAC435;
+
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+}
+
+.footer-bottom {
+    clear: left;
+    padding: 95px 47.67px 100px 50px;
+    color: #273043;
+    font-size: 15px;
+}
+
+.footer-bottom .col-1 {
+    float: left;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.footer-bottom .col-1 li {
+    list-style: none;
+    padding-bottom: 22.5px;
+}
+
+.footer-bottom .col-2 {
+    margin-left: 152px;
+    width: 359px;
+    float: left;
+    line-height: 24.3px;
+    letter-spacing: .25px;
+}
+
+.footer-bottom .col-2 h5 {
+    padding-top: 36px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 15px;
+}
+
+.footer-bottom .col-3 {
+    float: left;
+    margin-left: 112px;
+}
+
+.footer-bottom .col-4 {
+    float: right;
+    width: 170px;
+    margin-top: 80px;
+}
+
+.footer-bottom .col-4 p {
+    line-height: 24.3px;
+    letter-spacing: .25px;
+}
+
+.footer-bottom .col-4 h5 {
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding-top: 15px;
+}
+
+.social-link {
+    clear: both;
+    padding: 100px 0;
+}
+
+.social-links, .copyright {
+    display: flex;
+    justify-content: center;
+}
+
+.social-links i {
+    padding-right: 28px;
+}
+
+.copyright {
+    padding-top: 24px;
+}
+
+.copyright i, .copyright h6 {
+    float: left;
+}
+
+.copyright i {
+    padding-right: 6px;
+}
+
+.copyright h6 {
+    padding-right: 24px;
+}
