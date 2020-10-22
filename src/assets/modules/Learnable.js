@@ -69,26 +69,26 @@ class Learnable extends Component {
                 </div>
               </div>
             </section>
-            <section>
-              <div className="hero-media">
-                <i class="fal fa-long-arrow-down arrow-down"></i>
-                <div className="video">
-                  <img src={Video} />
-                </div>
-                <div className="explore-options">
-                  <div className="left-explore-option">
-                    <p>Development</p>
-                    <i>right angle</i>
-                    <p>What to expect</p>
-                  </div>
-                  <div className="right-explore-option">
-                    <p>Product Design</p>
-                    <i>right angle</i>
-                    <p>What to expect</p>
-                  </div>
-                </div>
+          </section>
+
+          <i class="fal fa-long-arrow-down long-arrow-down"></i>
+
+          <section className="hero-media">
+            <div className="video">
+              <img src={Video} />
+            </div>
+            <div className="explore-options">
+              <div className="left-explore-option">
+                <h2>Development</h2>
+                <i class="fas fa-chevron-right"></i>
+                <p>What to expect</p>
               </div>
-            </section>
+              <div className="right-explore-option">
+                <h2>Product Design</h2>
+                <i class="fas fa-chevron-right"></i>
+                <p>What to expect</p>
+              </div>
+            </div>
           </section>
 
           <section className="great-people">
@@ -143,10 +143,11 @@ class Learnable extends Component {
               <p>
                 We love to build stuff. Really awesome stuff. That’s why we have
                 developed a learning program that will empower you to create
-                amazing software the right way. <br /> We believe in learning
-                through experimentation. Our aim is to nurture and grow bright
-                young minds from the get-go because that’s how our industry will
-                thrive.
+                amazing software the right way.
+                <br />
+                <br /> We believe in learning through experimentation. Our aim
+                is to nurture and grow bright young minds from the get-go
+                because that’s how our industry will thrive.
               </p>
               <h5>Learn more</h5>
             </div>
@@ -211,11 +212,12 @@ class Learnable extends Component {
               <p>
                 We love to make things work perfectly. That’s why our design
                 learning path exposes you to the science of user-oriented
-                design. <br /> Design is at the heart of everything we do at
-                Genesys. Right from the start of the program, you’ll get your
-                hands dirty as you get practically involved in the world’s most
-                modern design concepts. At Genesys, we’re building designers who
-                put the users first.
+                design. <br />
+                <br /> Design is at the heart of everything we do at Genesys.
+                Right from the start of the program, you’ll get your hands dirty
+                as you get practically involved in the world’s most modern
+                design concepts. At Genesys, we’re building designers who put
+                the users first.
               </p>
               <h5>Learn more</h5>
             </div>

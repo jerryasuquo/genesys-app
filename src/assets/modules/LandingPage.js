@@ -10,6 +10,11 @@ import Ignite from "../images/ignite.png";
 import codeVille from "../images/codeville.png";
 import Pink from "../images/pink.png";
 import bestTeam from "../images/best-team.png";
+import LandingMobileImg1 from "../images/landing_mobile_1.png";
+import LandingMobileImg2 from "../images/landing_mobile_2.png";
+import LandingMobileImg3 from "../images/landing_mobile_3.png";
+import LandingMobileImg4 from "../images/landing_mobile_4.png";
+import LandingMobileImg8 from "../images/landing_mobile_8.png";
 
 class LandingPage extends Component {
   render() {
@@ -24,6 +29,7 @@ class LandingPage extends Component {
                 Genesys provides opportunities for young Nigerian techies and
                 opportunities to grow and innovate.
               </h2>
+              <img src={LandingMobileImg1} className="landing-mobile-img" />
               <p>
                 We understand that opportunities are scarce in these parts. We
                 are either creating or exposing our people to these
@@ -39,7 +45,8 @@ class LandingPage extends Component {
           <section className="learn-more">
             <div className="learn-more-box">
               <div className="photo">
-                <img src={youngMan} />
+                <img src={LandingMobileImg2} className="landing-mobile-img-2" />
+                <img src={youngMan} className="young-man" />
               </div>
               <div className="copy">
                 <h2>Learnable</h2>
@@ -55,6 +62,7 @@ class LandingPage extends Component {
 
           <section className="agora">
             <div className="agora-box">
+              <img src={LandingMobileImg3} className="landing-mobile-img-3" />
               <div className="copy">
                 <h2>Agora</h2>
                 <p>
@@ -72,22 +80,26 @@ class LandingPage extends Component {
 
           <section className="start-zone">
             <div className="start-zone-box">
+              <img src={LandingMobileImg4} className="landing-mobile-img-4" />
               <div className="photo">
-                <img src={Businesses} />
+                <img src={Businesses} className="businesses" />
               </div>
               <div className="copy">
                 <h2>StartZone</h2>
                 <p>
-                  The business environment is harsh for early-stage businesses.
-                  We can help you rise above it all.
+                  The business environment is harsh for <br />
+                  early-stage businesses. We can help you rise above it all.
                 </p>
-                <h5>Learn more</h5>
+                <h5>Here's how</h5>
               </div>
             </div>
           </section>
 
           <section className="our-things">
             <div className="our-things-box">
+              <div className="col-2-mobile">
+                <h2>Other things we do</h2>
+              </div>
               <div className="col-1">
                 <div className="row-1">
                   <div className="col-1-1">
@@ -117,6 +129,7 @@ class LandingPage extends Component {
 
           <section className="best-team">
             <div className="best-team-box">
+              <img src={LandingMobileImg8} className="landing-mobile-img-8" />
               <div className="photo">
                 <img src={bestTeam} />
               </div>

@@ -19,7 +19,7 @@ class Journal extends Component {
               </div>
             </div>
           </section>
-          <section className="faq-article">
+          <section className="faq-article-main">
             <form>
               <select>
                 <option>How many people can attend a course?</option>

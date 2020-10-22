@@ -6,7 +6,7 @@ import ProfilePic from "../images/profile.png";
 import Image23 from "../images/image 23.png";
 import Image24 from "../images/image 24.png";
 import Image25 from "../images/image 25.png";
-import Image26 from "../images/image 25.png";
+import Image26 from "../images/image 26.png";
 
 class Journal extends Component {
   render() {
@@ -19,7 +19,7 @@ class Journal extends Component {
             <button>CATEGORIES</button>
           </section>
 
-          <section className="">
+          <section className="hero-journal-main">
             <div className="col-1">
               <img src={LikeAPro} />
             </div>
@@ -39,7 +39,7 @@ class Journal extends Component {
                 porttitor cursus. Ipsum sem ut tortor ac ullamcorper. Lacus.
               </p>
               <img src={ProfilePic} />
-              <span>David Mong, Apr 9, 2020</span>
+              <span className="profile-info">David Mong, Apr 9, 2020</span>
             </div>
           </section>
 
